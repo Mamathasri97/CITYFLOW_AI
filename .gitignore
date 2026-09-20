@@ -1,0 +1,29 @@
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Optional: Large data checkpoints (if over 100MB)
+# data/raw/*.zip
+data/raw/*.zip
+data/raw/traffic_train.csv
+data/raw/traffic_validation.csv
+data/raw/forecast_targets_train.csv
+data/raw/forecast_targets_validation.csv
+# Model pickles & Python cache
+*.pkl
+__pycache__/
+*.pyc
+.venv/
